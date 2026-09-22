@@ -1,0 +1,14 @@
+button{
+    margin: 10px;
+}
+h1{
+    width: fit-content;
+    align-items: center;
+    padding: 50px;
+    height: auto;
+    background-color: gray;
+    border-radius: 50%;
+}
+.box{
+    
+}
