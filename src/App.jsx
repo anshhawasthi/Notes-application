@@ -46,7 +46,7 @@ const App = () => {
           {task.map(function(elem, idx) {
             return <div key={idx} className="flex flex-col justify-between items-start relative bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnLPnW7YWMbLsXu_OPx0AzE4A5fDNXEEo_Bf7ynff9VA&s=10')] bg-cover rounded-2xl text-black py-9 pb-4 px-4 h-52 w-40">
               <h3 className='leading-tight text-lg font-bold'>{elem.title}</h3>
-              <p className='mt-4 leading-tight text-sm font-medium text-gray-800'>{elem.details}</p>
+              <p className='mt-4 leading-tight text-xs font-semibold text-gray-700'>{elem.details}</p>
               <button onClick={() => {
                 deleteNote(idx)
               }} className='bg-red-800 text-white cursor-pointer active:scale-95 active:bg-red-900 py-1 rounded text-xs font-bold w-full'>Delete</button>
